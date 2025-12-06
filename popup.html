@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Image Downloader</h1>
+        </header>
+
+        <div id="mainContent" class="main-content">
+            <div id="previewContainer" class="preview-container">
+                <div class="loading">Scanning for main image...</div>
+            </div>
+
+            <div class="options-panel">
+                <label for="resolutionSelect">Select Resolution</label>
+                <select id="resolutionSelect" class="resolution-select" disabled>
+                    <option>Loading...</option>
+                </select>
+            </div>
+        </div>
+
+        <footer>
+            <button id="downloadBtn" class="btn-primary" disabled>Download Image</button>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Modern Image Downloader",
+  "version": "1.0",
+  "description": "Download images from the current web page with a modern UI.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
